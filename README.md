@@ -1,2 +1,1 @@
-# unique_validation_inspector_demo
-A demo project
+A demo project for the article [Rails: make sure you have proper DB indexes for your model’s unique validations](https://medium.com/@igorkhomenko/rails-make-sure-you-have-proper-db-indexes-for-your-models-unique-validations-ffd0364df26f)
