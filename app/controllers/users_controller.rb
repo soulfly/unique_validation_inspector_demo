@@ -12,6 +12,15 @@ class UsersController < ApplicationController
  def create
    @user = User.new(user_params)
 
+  #  unless @user.valid?
+  #    render json: {
+  #      status: 422,
+  #      message: "Validation error",
+  #      errors: @user.errors
+  #    }.to_json
+  #    return
+  #  end
+
    begin
      @user.save!
      render json: {
